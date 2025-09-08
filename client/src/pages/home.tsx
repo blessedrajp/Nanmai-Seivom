@@ -30,8 +30,12 @@ import {
   MapPin,
   Instagram,
   Facebook,
-  Youtube
+  Youtube,
+  Award,
+  Camera,
+  Play
 } from 'lucide-react';
+import logoImage from '@assets/ccc14d05e5591f02aa965e4f16d3941652fa7f49_1757331204245.png';
 
 const contactFormSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -569,13 +573,11 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-4 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-                  <Heart className="text-white text-xl" fill="currentColor" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold">NANMAI SEIVOM</h3>
-                  <p className="text-sm text-gray-400">Building Better Society</p>
-                </div>
+                <img 
+                  src={logoImage} 
+                  alt="Nanmai Seivom Trust Logo"
+                  className="h-12 w-auto"
+                />
               </div>
               <p className="text-gray-300 text-sm">Empowering communities through truth, love, and dedicated service since 2014.</p>
             </div>

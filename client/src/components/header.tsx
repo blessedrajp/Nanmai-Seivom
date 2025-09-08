@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logoImage from '@assets/ccc14d05e5591f02aa965e4f16d3941652fa7f49_1757331204245.png';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -22,13 +23,11 @@ export function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-              <Heart className="text-white text-xl" fill="currentColor" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-primary">NANMAI SEIVOM</h1>
-              <p className="text-sm text-muted-foreground">Building Better Society</p>
-            </div>
+            <img 
+              src={logoImage} 
+              alt="Nanmai Seivom Trust Logo"
+              className="h-12 w-auto"
+            />
           </div>
           
           {/* Desktop Navigation */}
