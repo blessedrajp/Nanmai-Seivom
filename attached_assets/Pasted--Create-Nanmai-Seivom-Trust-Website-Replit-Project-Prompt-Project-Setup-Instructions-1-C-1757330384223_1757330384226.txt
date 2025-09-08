@@ -1,0 +1,143 @@
+# Create Nanmai Seivom Trust Website - Replit Project Prompt
+
+## Project Setup Instructions:
+1. Create a new React + Vite project on Replit
+2. Use the following tech stack: React, Vite, Tailwind CSS
+3. Font: Nutmeg (import from Google Fonts)
+4. Theme: Modern, clean design with green and teal color scheme
+
+## Website Sections Required:
+
+### 1. Header/Navigation
+- Logo: "NANMAI SEIVOM" with tagline "Building Better Society"
+- Navigation menu: Home, About, Services, Contact, "Join With Us" button
+- Responsive hamburger menu for mobile
+- Sticky header with shadow
+
+### 2. Hero Section (Image Slider)
+Create 3-4 sliding hero banners with:
+- **Slide 1**: "Building a Better Society Rooted in Truth & Love!"
+  - Subtitle: "Empowering communities through education, sports, healthcare, and social change"
+- **Slide 2**: "Sports for Health & Fitness - Beating Drugs with Sports"
+  - Subtitle: "14 tournaments conducted, 1,200+ youth participated"
+- **Slide 3**: "Community Development & Tribal Rights"
+  - Subtitle: "Uplifting marginalized communities in Kodaikanal downhills"
+- **Slide 4**: "Medical Services & Blood Donation"
+  - Subtitle: "300+ villagers benefited from our medical camps"
+
+Add navigation arrows and auto-slide functionality (5-second intervals)
+
+### 3. About Section
+**Vision**: "To inspire and empower communities to build better society rooted in Truth and Love."
+
+**Mission**: "To build a better society rooted in truth and love by engaging in diverse initiatives that empower communities. Through sports, we promote healthy lifestyles and unity; through education, we nurture knowledge and opportunities; through medical services, we ensure well-being; through community development, we uplift marginalized groups and enhance livelihoods."
+
+**About Nanmai Seivom**: Brief description of origin in Madurai, expansion to tribal communities in Kodaikanal, focus on drug awareness through sports, and future expansion plans across Tamil Nadu and India.
+
+### 4. What We Do (Services Section)
+Create 5 service cards with icons:
+
+**Service 1: Sports for Health & Fitness**
+- Description: "We believe in beating drugs with sports. Through tournaments, awareness programs, and youth engagement."
+- Stats: "14 tournaments across Chennai, Ooty, Madurai, and Kodaikanal"
+- Partners: "Gilgal Sports Academy, DMK Sports Wing, CCJ Ministries"
+
+**Service 2: Education & Career Growth**
+- Description: "Empowering the next generation through quality education and career guidance."
+- Features: "Tuition centers, scholarships, career counseling by Dr. Sujith from Rotary Club"
+
+**Service 3: Medical Services & Blood Donation**
+- Description: "Ensuring accessible healthcare for all."
+- Achievements: "Major medical camp at Madurai Ambalathadi (300+ beneficiaries)"
+- Partners: "Christian Fellowship Hospital, Oddanchatram"
+
+**Service 4: Community Upliftment & Tribal Rights**
+- Description: "Uplifting marginalized communities through skill development and legal awareness."
+- Features: "Tribal rights awareness by Adv. Albert and Dr. Anbu Chezhiyan"
+
+**Service 5: Social Awareness & Campaigns**
+- Description: "Driving change through education, environmental action, and social inclusion."
+- Activities: "Tree plantation, moral education, elderly care, social media awareness"
+
+### 5. Statistics/Impact Section
+Display key numbers in animated counters:
+- 1,200+ Youth Engaged
+- 14 Tournaments Conducted
+- 300+ Medical Camp Beneficiaries
+- 9+ Years of Service
+
+### 6. Objectives Section
+List the 6 main objectives with icons:
+1. Promote Health and Fitness through Sports
+2. Enhance Educational Opportunities
+3. Ensure Accessible Medical Services
+4. Foster Community Development
+5. Engage in Holistic Activities
+6. Promote Truth and Love
+
+### 7. Upcoming Events Section
+Create 3 event cards:
+- **Autonomous Events**: Self-organized initiatives
+- **Collaborative Events**: Partnership programs
+- **Volunteer Opportunities**: Community participation events
+
+### 8. Partners Section
+Sliding carousel of partner logos/names:
+- Gilgal Sports Academy
+- DMK Sports Wing
+- CCJ Ministries
+- Christian Sports Fellowship
+- Florans Trust
+- Christian Fellowship Hospital
+- Rotary Club
+- State Human Rights Department
+
+### 9. Testimonials/Success Stories (Optional)
+Include stories of youth who benefited from programs, medal winners, etc.
+
+### 10. Contact Section
+**Contact Information:**
+- Email: seivomnanmai@gmail.com
+- Phone Numbers: +91 8695101448, +91 90920 92516, +91 9159428589
+- Address: 39, Anjal nagar, 2nd Street, Palamedu Main Road, Madurai-625018
+
+**Social Media Links:**
+- Instagram
+- Facebook
+- YouTube
+
+**Contact Form:** Name, Email, Phone, Message fields with submit button
+
+### 11. Footer
+- Quick links (Home, About, Services, Contact)
+- Social media icons
+- Copyright information
+- "Join With Us" call-to-action
+
+## Design Requirements:
+- **Color Scheme**: Primary green (#059669), teal accent (#0891b2), white backgrounds
+- **Typography**: Nutmeg font family (import from Google Fonts)
+- **Layout**: Clean, modern, mobile-responsive design
+- **Animations**: Smooth transitions, hover effects, scroll animations
+- **Images**: Use placeholder gradients or stock images representing sports, education, medical, community work
+- **Icons**: Use Lucide React or Heroicons for consistent iconography
+
+## Technical Features:
+- Responsive design (mobile-first approach)
+- Smooth scrolling navigation
+- Image slider with auto-play and manual controls
+- Animated counters for statistics
+- Mobile hamburger menu
+- Contact form validation
+- Loading animations
+- SEO-friendly structure
+
+## Replit-Specific Instructions:
+1. Set up package.json with required dependencies
+2. Configure Vite for optimal build
+3. Use Tailwind CSS for styling
+4. Implement responsive design using Tailwind breakpoints
+5. Add Google Fonts link in index.html
+6. Ensure all components are properly structured for Replit's environment
+
+This website should reflect the trust's mission of building a better society through sports, education, healthcare, and community development, with a focus on drug awareness and tribal community upliftment.
