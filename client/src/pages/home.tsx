@@ -389,6 +389,222 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Photo Gallery Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Events Conducted</h2>
+            <p className="text-xl text-muted-foreground">Showcasing our impact through cricket tournaments and drug awareness campaigns</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Cricket Tournament Photos */}
+            <Card className="shadow-lg overflow-hidden">
+              <div className="relative h-64">
+                <img 
+                  src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Cricket tournament participants"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <Play className="text-white text-4xl" />
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-2 mb-3">
+                  <Trophy className="text-primary h-5 w-5" />
+                  <h3 className="font-bold text-primary">Cricket Tournament 2024</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">Chennai district championship with 200+ youth participants promoting sports as an alternative to drugs</p>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg overflow-hidden">
+              <div className="relative h-64">
+                <img 
+                  src="https://images.unsplash.com/photo-1593341646782-e0635909d428?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Drug awareness campaign"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <Camera className="text-white text-4xl" />
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-2 mb-3">
+                  <Megaphone className="text-secondary h-5 w-5" />
+                  <h3 className="font-bold text-secondary">Drug Awareness Campaign</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">Community education program in Kodaikanal tribal areas reaching 300+ families</p>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg overflow-hidden">
+              <div className="relative h-64">
+                <img 
+                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Youth sports championship"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <Award className="text-white text-4xl" />
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-2 mb-3">
+                  <Users className="text-primary h-5 w-5" />
+                  <h3 className="font-bold text-primary">Youth Championship</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">Inter-district sports meet in Madurai bringing together 400+ young athletes</p>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg overflow-hidden">
+              <div className="relative h-64">
+                <img 
+                  src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Community health awareness"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <Stethoscope className="text-white text-4xl" />
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-2 mb-3">
+                  <Heart className="text-secondary h-5 w-5" />
+                  <h3 className="font-bold text-secondary">Health Awareness</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">Medical camp and health education at Ooty reaching 150+ tribal community members</p>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg overflow-hidden">
+              <div className="relative h-64">
+                <img 
+                  src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Community development program"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <Handshake className="text-white text-4xl" />
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-2 mb-3">
+                  <Leaf className="text-primary h-5 w-5" />
+                  <h3 className="font-bold text-primary">Community Development</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">Skill development and livelihood training program for marginalized communities</p>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg overflow-hidden">
+              <div className="relative h-64">
+                <img 
+                  src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                  alt="Education support program"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                  <Book className="text-white text-4xl" />
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-2 mb-3">
+                  <GraduationCap className="text-secondary h-5 w-5" />
+                  <h3 className="font-bold text-secondary">Education Support</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">Scholarship distribution and career guidance session for 100+ underprivileged students</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Sponsors Invite Section */}
+      <section className="py-20 bg-gradient-to-r from-primary to-secondary text-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Partner With Us</h2>
+            <p className="text-xl text-white/90 max-w-3xl mx-auto">Join hands with Nanmai Seivom Trust to create lasting impact in communities. Together, we can build a better society rooted in truth and love.</p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Handshake className="text-2xl" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Corporate Sponsorship</h3>
+                <p className="text-white/90 mb-6">Support our programs through financial contributions and gain valuable CSR credits</p>
+                <ul className="text-sm text-white/80 space-y-2">
+                  <li>• Brand visibility at events</li>
+                  <li>• CSR report documentation</li>
+                  <li>• Tax benefits under 80G</li>
+                  <li>• Community impact certificates</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Users className="text-2xl" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Community Partnership</h3>
+                <p className="text-white/90 mb-6">Collaborate with us to organize events and awareness programs in your area</p>
+                <ul className="text-sm text-white/80 space-y-2">
+                  <li>• Joint event organization</li>
+                  <li>• Resource sharing</li>
+                  <li>• Volunteer coordination</li>
+                  <li>• Local impact measurement</li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Heart className="text-2xl" />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Individual Donors</h3>
+                <p className="text-white/90 mb-6">Make a direct difference in someone's life through your generous contributions</p>
+                <ul className="text-sm text-white/80 space-y-2">
+                  <li>• Monthly giving programs</li>
+                  <li>• Sponsor a child's education</li>
+                  <li>• Fund medical camps</li>
+                  <li>• Support sports equipment</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center">
+            <p className="text-lg text-white/90 mb-8">Ready to make a difference? Get in touch with us to explore partnership opportunities.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                data-testid="button-become-sponsor"
+                size="lg"
+                className="bg-white text-primary hover:bg-white/90 font-semibold"
+                onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Become a Sponsor
+              </Button>
+              <Button
+                data-testid="button-partnership-inquiry"
+                variant="outline"
+                size="lg"
+                className="border-white text-white hover:bg-white/10 font-semibold"
+                onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Partnership Inquiry
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-20">
         <div className="container mx-auto px-4">
@@ -399,83 +615,89 @@ export default function Home() {
           
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-bold text-primary mb-8">Contact Information</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <p className="text-muted-foreground">seivomnanmai@gmail.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-1">Phone Numbers</h4>
-                    <div className="space-y-1 text-muted-foreground">
-                      <p>+91 8695101448</p>
-                      <p>+91 90920 92516</p>
-                      <p>+91 9159428589</p>
+              <Card className="shadow-lg border border-border">
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-bold text-primary mb-8">Contact Information</h3>
+                  
+                  <div className="space-y-6">
+                    <div className="flex items-start space-x-4 p-4 bg-primary/5 rounded-lg">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Mail className="text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">Email</h4>
+                        <p className="text-muted-foreground">seivomnanmai@gmail.com</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-4 p-4 bg-secondary/5 rounded-lg">
+                      <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Phone className="text-secondary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">Phone Numbers</h4>
+                        <div className="space-y-1 text-muted-foreground">
+                          <p>+91 8695101448</p>
+                          <p>+91 90920 92516</p>
+                          <p>+91 9159428589</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start space-x-4 p-4 bg-primary/5 rounded-lg">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <MapPin className="text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground mb-1">Address</h4>
+                        <p className="text-muted-foreground">
+                          39, Anjal nagar, 2nd Street,<br />
+                          Palamedu Main Road,<br />
+                          Madurai-625018
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="text-primary" />
+                  
+                  <div className="mt-8">
+                    <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
+                    <div className="flex space-x-4">
+                      <Button
+                        data-testid="link-instagram"
+                        variant="ghost"
+                        size="icon"
+                        className="w-12 h-12 bg-primary/10 rounded-lg text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                      >
+                        <Instagram className="h-5 w-5" />
+                      </Button>
+                      <Button
+                        data-testid="link-facebook"
+                        variant="ghost"
+                        size="icon"
+                        className="w-12 h-12 bg-primary/10 rounded-lg text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                      >
+                        <Facebook className="h-5 w-5" />
+                      </Button>
+                      <Button
+                        data-testid="link-youtube"
+                        variant="ghost"
+                        size="icon"
+                        className="w-12 h-12 bg-primary/10 rounded-lg text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                      >
+                        <Youtube className="h-5 w-5" />
+                      </Button>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-1">Address</h4>
-                    <p className="text-muted-foreground">
-                      39, Anjal nagar, 2nd Street,<br />
-                      Palamedu Main Road,<br />
-                      Madurai-625018
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="mt-8">
-                <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
-                <div className="flex space-x-4">
-                  <Button
-                    data-testid="link-instagram"
-                    variant="ghost"
-                    size="icon"
-                    className="w-12 h-12 bg-primary/10 rounded-lg text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    <Instagram className="h-5 w-5" />
-                  </Button>
-                  <Button
-                    data-testid="link-facebook"
-                    variant="ghost"
-                    size="icon"
-                    className="w-12 h-12 bg-primary/10 rounded-lg text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    <Facebook className="h-5 w-5" />
-                  </Button>
-                  <Button
-                    data-testid="link-youtube"
-                    variant="ghost"
-                    size="icon"
-                    className="w-12 h-12 bg-primary/10 rounded-lg text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    <Youtube className="h-5 w-5" />
-                  </Button>
-                </div>
-              </div>
+                </CardContent>
+              </Card>
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold text-primary mb-8">Send Us a Message</h3>
-              
-              <Form {...form}>
+              <Card className="shadow-lg border border-border">
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-bold text-primary mb-8">Send Us a Message</h3>
+                  
+                  <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <FormField
@@ -488,6 +710,7 @@ export default function Home() {
                             <Input 
                               data-testid="input-name"
                               placeholder="Your name" 
+                              className="focus:ring-2 focus:ring-primary/20 transition-all duration-300"
                               {...field} 
                             />
                           </FormControl>
@@ -505,6 +728,7 @@ export default function Home() {
                             <Input 
                               data-testid="input-phone"
                               placeholder="Your phone number" 
+                              className="focus:ring-2 focus:ring-primary/20 transition-all duration-300"
                               {...field} 
                             />
                           </FormControl>
@@ -525,6 +749,7 @@ export default function Home() {
                             data-testid="input-email"
                             type="email"
                             placeholder="your.email@example.com" 
+                            className="focus:ring-2 focus:ring-primary/20 transition-all duration-300"
                             {...field} 
                           />
                         </FormControl>
@@ -541,11 +766,10 @@ export default function Home() {
                         <FormLabel>Message *</FormLabel>
                         <FormControl>
                           <Textarea 
-                            data-testid="textarea-message"
-                            placeholder="Your message"
-                            rows={5}
-                            className="resize-vertical"
-                            {...field} 
+                            data-testid="input-message"
+                            placeholder="Tell us how you'd like to get involved, partnership ideas, or any questions you have..."
+                            className="min-h-[120px] focus:ring-2 focus:ring-primary/20 transition-all duration-300"
+                            {...field}
                           />
                         </FormControl>
                         <FormMessage />
@@ -553,15 +777,17 @@ export default function Home() {
                     )}
                   />
                   
-                  <Button 
-                    data-testid="button-send-message"
-                    type="submit" 
-                    className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                  >
-                    Send Message
-                  </Button>
-                </form>
-              </Form>
+                    <Button 
+                      data-testid="button-send-message"
+                      type="submit" 
+                      className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 font-semibold py-3"
+                    >
+                      Send Message
+                    </Button>
+                  </form>
+                </Form>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
