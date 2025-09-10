@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoImage from '@assets/ccc14d05e5591f02aa965e4f16d3941652fa7f49_1757331204245.png';
+import logoImage from '@/assets/logo.png';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ export function Header() {
             <img 
               src={logoImage} 
               alt="Nanmai Seivom Trust Logo"
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
           </div>
           

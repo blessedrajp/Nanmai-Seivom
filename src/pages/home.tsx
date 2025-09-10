@@ -35,7 +35,7 @@ import {
   Camera,
   Play
 } from 'lucide-react';
-import logoImage from '@assets/ccc14d05e5591f02aa965e4f16d3941652fa7f49_1757331204245.png';
+import logoImage from '@/assets/logo.png';
 
 const contactFormSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -175,31 +175,65 @@ export default function Home() {
               className="rounded-xl shadow-lg"
             />
             
+             <div className={`space-y-10 ${aboutVisible ? 'animate-fade-in-right' : ''}`}>
+        <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-primary">
+          <div className="flex items-start mb-4">
+            <div className="bg-primary/10 p-2 rounded-lg mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
             <div>
-              <div className="mb-8">
-                <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
-                <p className="text-lg text-foreground">
-                  To inspire and empower communities to build better society rooted in Truth and Love.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-2xl font-bold text-primary mb-4">Our Mission</h3>
-                <p className="text-lg text-foreground">
-                  To build a better society rooted in truth and love by engaging in diverse initiatives that empower communities. Through sports, we promote healthy lifestyles and unity; through education, we nurture knowledge and opportunities; through medical services, we ensure well-being; through community development, we uplift marginalized groups and enhance livelihoods.
-                </p>
-              </div>
+              <h3 className="text-2xl font-bold text-primary mb-2">Our Vision</h3>
+              <p className="text-foreground">
+                To inspire and empower communities to build a better society rooted in Truth and Love.
+              </p>
             </div>
           </div>
-          
-          <Card className="shadow-lg">
-            <CardContent className="p-8 md:p-12">
-              <h3 className="text-2xl font-bold text-primary mb-6">Our Journey</h3>
-              <p className="text-lg text-foreground leading-relaxed">
-                Founded in Madurai with a vision to combat drug addiction through sports and community engagement, Nanmai Seivom Trust has expanded its reach to tribal communities in Kodaikanal downhills. Our comprehensive approach includes sports tournaments for youth engagement, educational support, medical camps, and community development programs. We believe in the power of sports to beat drugs and create positive change in society. Our future expansion plans include reaching communities across Tamil Nadu and eventually throughout India.
+        </div>
+        
+        <div className="bg-white p-6 rounded-xl shadow-md border-l-4 border-accent">
+          <div className="flex items-start mb-4">
+            <div className="bg-primary/10 p-2 rounded-lg mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-primary mb-2">Our Mission</h3>
+              <p className="text-foreground">
+                To build a better society rooted in truth and love by engaging in diverse initiatives that empower communities. Through sports, we promote healthy lifestyles and unity; through education, we nurture knowledge and opportunities; through medical services, we ensure well-being; through community development, we uplift marginalized groups and enhance livelihoods.
               </p>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+         <Card className="shadow-lg">
+  <CardContent className="p-8 md:p-12">
+    <div className="flex items-center mb-6">
+      {/* <div className="bg-primary/10 p-3 rounded-lg mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div> */}
+      <h2 className="text-2xl font-bold text-primary">Our Journey</h2>
+    </div>
+    
+    <p className="text-lg text-foreground leading-relaxed mb-6">
+      Founded in <span className="font-semibold text-primary">Madurai</span> with a vision to combat drug addiction through sports and community engagement, Nanmai Seivom Trust has expanded its reach to tribal communities in <span className="font-semibold text-primary">Kodaikanal downhills </span>. Our comprehensive approach includes sports tournaments for youth engagement, educational support, medical camps, and community development programs. We believe in the power of <span className="font-semibold text-primary">"Sports Beat Drugs"</span> and create positive change in society.
+    </p>
+    
+    {/* <p className="text-lg text-foreground leading-relaxed mb-6"> */}
+      {/* Our comprehensive approach includes sports tournaments for youth engagement, educational support, medical camps, and community development programs. We believe in the power of <span className="font-semibold text-primary">"Sports Beat Drugs"</span> and create positive change in society. */}
+    {/* </p> */}
+    
+    <p className="text-lg text-foreground leading-relaxed">
+      Our future expansion plans include reaching communities across <span className="font-semibold text-primary">Tamil Nadu</span> and eventually throughout <span className="font-semibold text-primary">India</span>.
+    </p>
+  </CardContent>
+</Card>
         </div>
       </section>
 
@@ -595,7 +629,7 @@ export default function Home() {
                 data-testid="button-partnership-inquiry"
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white/10 font-semibold"
+                className="bg-primary hover:bg-white hover:text-primary  font-semibold"
                 onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Partnership Inquiry
@@ -798,11 +832,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-4 mb-6">
+              <div className="flex items-center  mb-2">
                 <img 
                   src={logoImage} 
                   alt="Nanmai Seivom Trust Logo"
-                  className="h-12 w-auto"
+                  className="h-20 "
+
                 />
               </div>
               <p className="text-gray-300 text-sm">Empowering communities through truth, love, and dedicated service since 2014.</p>

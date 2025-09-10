@@ -108,7 +108,7 @@ export function HeroSlider() {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 flex items-center z-20">
-              <div className="container mx-auto px-4">
+              <div className="container mx-auto px-4 pl-20">
                 <div className="max-w-3xl text-white">
                   <h2 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                     {slide.title}
