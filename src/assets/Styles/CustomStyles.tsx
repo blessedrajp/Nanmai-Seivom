@@ -1,0 +1,76 @@
+export const CustomInputStyles = {
+  mb: 0,
+  "& input": {
+    padding: "12px",
+    fontSize: "14px",
+    fontFamily: "Regular_M",
+  },
+  "& label": {
+    fontFamily: "Regular_M",
+  },
+  "& .MuiInputBase-adornedStart input, & .MuiInputBase-inputAdornedStart": {
+    paddingLeft: "5px",
+  },
+  "& .MuiFormHelperText-root": { margin: "5px 0px 0px 0px" },
+  "& .MuiInputAdornment-root": {
+    margin: "0px",
+    "& .MuiSvgIcon-root": {
+      fontSize: "20px",
+      color: "var(--customIcon)",
+    },
+  },
+  "& .MuiTextField-root": {
+    width: "100%",
+    "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
+      borderColor: "var(--border-color)",
+    },
+    "& .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline": {
+      borderColor: "var(--border-color)",
+    },
+    "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+      borderColor: "var(--border-color)",
+      borderWidth: "1.5px",
+    },
+    "& .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline": {
+      borderColor: "var(--error)",
+    },
+  },
+  "& .MuiInputLabel-root": {
+    "&.Mui-focused": {
+      color: "var(--title)",
+    },
+    "&.Mui-error": {
+      color: "var(--error)",
+    },
+    "& .MuiBox-root": {
+      paddingLeft: "2px",
+    },
+  },
+};
+
+export const CustomButtonStyles = {
+  width: "100%",
+  background: "var(--primary)",
+};
+export const CustomAutocompleteStyles = {
+  "& input": {
+    padding: "3px !important",
+    fontSize: "14px",
+    fontFamily: "Regular_M",
+  },
+  "& label": {
+    fontSize: "16px",
+    fontFamily: "Regular_M",
+    color: "var(--title)",
+  },
+  "& fieldset": {
+    borderWidth: "1.5px !important",
+    borderColor: "var(--border-color) !important",
+    borderRadius: "5px",
+  },
+  "& .Mui-error .MuiOutlinedInput-notchedOutline ": {
+    borderWidth: "1.5px !important",
+    borderColor: "var(--error) !important",
+    borderRadius: "5px",
+  },
+};
