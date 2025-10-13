@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, Typography, Card, CardContent, Button } from "@mui/material";
 import HandshakeIcon from "@mui/icons-material/Handshake";
 import GroupIcon from "@mui/icons-material/Group";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import SponsorPopup from "./sponserpopup";
 
 export const WebPartner = () => {
+   const [openSponsor, setOpenSponsor] = useState(false);
   return (
     <Box
       component="section"
@@ -206,11 +208,7 @@ export const WebPartner = () => {
               fontWeight: "bold",
               "&:hover": { backgroundColor: "rgba(255,255,255,0.9)" },
             }}
-            onClick={() =>
-              document.querySelector("#contact")?.scrollIntoView({
-                behavior: "smooth",
-              })
-            }
+           onClick={() => setOpenSponsor(true)}
           >
             Become a Sponsor
           </Button>
@@ -231,6 +229,8 @@ export const WebPartner = () => {
             Partnership Inquiry
           </Button>
         </Box>
+
+         <SponsorPopup open={openSponsor} onClose={() => setOpenSponsor(false)} />
       </Box>
     </Box>
   );
