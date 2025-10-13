@@ -1,5 +1,6 @@
 import logo from "./logo.png"
 import qr from "./qrcode.jpg"
+import appLogo from './logonanmai.jpg'
 
 import banner1 from './banners/Community Developement.png'
 import banner2 from './banners/Education.png'
@@ -64,6 +65,8 @@ import social8 from './socialawareness/wedding tree donation.jpg'
 export const images = {
   logo: logo,
   qr:qr,
+  appLogo:appLogo,
+
   banner1:banner1,
   banner2:banner2,
   banner3:banner3,

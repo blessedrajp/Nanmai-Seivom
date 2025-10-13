@@ -1,3 +1,4 @@
+import PopupModal from "./popup";
 import { WebAbout } from "./WebAbout";
 import { WebBanner } from "./WebBanner";
 import { WebContact } from "./WebContact";
@@ -26,6 +27,7 @@ export const WebLayout = () => {
       <WebPartner />
       <WebContact />
       <WebFooter />
+      <PopupModal />
     </>
   );
 };
