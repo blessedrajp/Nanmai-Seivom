@@ -12,8 +12,8 @@ const services = [
     title: "Sports for Health & Fitness",
     description:
       "We believe in beating drugs with sports. Through tournaments, awareness programs, and youth engagement.",
-    stats: "14 tournaments across Chennai, Ooty, Madurai, and Kodaikanal",
-    partners: "Gilgal Sports Academy, DMK Sports Wing, CCJ Ministries",
+    stats: "30+ tournaments across Trichy, Ooty, Madurai, Kodaikanal and more",
+    partners: "HCA Trust,DMK Sports Wing, CCJ Ministries",
   },
   {
     icon: GraduationCapIcon,

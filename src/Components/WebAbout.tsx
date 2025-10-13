@@ -9,11 +9,12 @@ export const WebAbout = () => {
   const [showFullJourney, setShowFullJourney] = useState(false);
 
   const fullJourneyText = `
-    Founded in Madurai with a vision to combat drug addiction through sports and community engagement, Nanmai Seivom Trust has expanded its reach to tribal communities in Kodaikanal downhills. Our comprehensive approach includes sports tournaments for youth engagement, educational support, medical camps, and community development programs. We believe in the power of "Sports Beat Drugs" and create positive change in society.
+   Nanmai Seivom Movement was founded in 2020 in Madurai with over 50+ volunteers, working together to carry out social welfare activities. It supports orphans and parentless children by providing education, food, and medical assistance. Along with these, the movement is also engaged in tree-planting initiatives and serves as a bridge between blood donors and patients in need of blood. It continuously conducts blood donation awareness campaigns, helping to save many lives.
 
-    Our future expansion plans include reaching communities across Tamil Nadu and eventually throughout India.
+The movement also extends support to hill-region communities by arranging livelihood assistance and spreads awareness against drug abuse through sports tournaments. These tournaments help young people maintain a healthy lifestyle. By sending youth to district- and state-level sports competitions, it provides them with training and job opportunities.
 
-    Founded in Madurai with a vision to combat drug addiction through sports and community engagement, Nanmai Seivom Trust has expanded its reach to tribal communities in Kodaikanal downhills. Our comprehensive approach includes sports tournaments for youth engagement, educational support, medical camps, and community development programs. We believe in the power of "Sports Beat Drugs" and create positive change in society.
+Taking it forward, the movement has now begun to expand its social welfare projects across Tamil Nadu. Therefore, we invite you to join hands with us in bringing about this social transformation throughout the state!
+
   `;
 
   const truncateText = (text: string, wordLimit = 100) => {

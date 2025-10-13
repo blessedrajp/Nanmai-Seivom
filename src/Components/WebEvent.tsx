@@ -19,7 +19,10 @@ import {
   NavigateBefore as PrevIcon,
   NavigateNext as NextIcon
 } from "@mui/icons-material";
+
+
 import drugimg from '../assets/Images/drug.jpg';
+import { images } from "../assets/Images/Images";
 
 export const WebEvent = () => {
   const [open, setOpen] = useState(false);
@@ -52,93 +55,113 @@ export const WebEvent = () => {
   // Sample gallery images for each event
   const events = [
     {
-      title: "Sports Tournament 2024",
+      title: "Sports for Health & Fitness",
       description:
         "District-level championship with 200+ youth participants, promoting sports and teamwork as a powerful alternative to drugs and negative influences. Encouraging discipline, unity, and healthy competition to inspire the younger generation.",
-      img: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      img: images.sports1,
       icon: Trophy,
       color: "var(--primary)",
       overlayIcon: Play,
       gallery: [
-        "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+       images.sports1,
+       images.sports2,
+       images.sports3,
+       images.sports4,
+       images.sports5,
+       images.sports6,
+       images.sports7,
+       images.sports8,
+       images.sports9,
+       images.sports10,
       ]
     },
     {
       title: "Drug Awareness Campaign",
       description:
         "Community education program in Kodaikanal tribal areas reaching 300+ families",
-      img: drugimg,
+      img: images.drug1,
       icon: Megaphone,
       color: "secondary.main",
       overlayIcon: Camera,
       gallery: [
-        drugimg,
-        "https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1593113630400-ea4288922497?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+        images.drug1,
+        images.drug2,
+        images.drug3,
+        images.drug4,
+        images.drug5,
       ]
     },
     {
-      title: "Youth Championship",
+      title: "Medical Services & Blood Donation",
       description:
         "Inter-district sports meet in Madurai bringing together 400+ young athletes",
-      img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      img: images.blood1,
       icon: Users,
       color: "var(--primary)",
       overlayIcon: Award,
       gallery: [
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+        images.blood1,
+        images.blood2,
+        images.blood3,
+        images.blood4,
+        images.blood5,
+        images.blood6,
+        images.blood7,
+        images.blood8,
       ]
     },
     {
-      title: "Health Awareness",
+      title: "Community Upliftment & Tribal Rights",
       description:
         "Medical camp and health education at Ooty reaching 150+ tribal community members",
-      img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      img: images.communityup1,
       icon: Heart,
       color: "secondary.main",
       overlayIcon: Stethoscope,
       gallery: [
-        "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+        images.communityup1,
+        images.communityup2,
+        images.communityup3,
+        images.communityup4,
+        images.communityup5,
+        images.communityup6,
+        images.communityup7,
+
       ]
     },
     {
-      title: "Community Development",
+      title: "Social Awareness & Environmental Stewardship",
       description:
         "Skill development and livelihood training program for marginalized communities",
-      img: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      img: images.social1,
       icon: Leaf,
       color: "var(--primary)",
       overlayIcon: Handshake,
       gallery: [
-        "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+       images.social1,
+       images.social2,
+       images.social3,
+       images.social4,
+       images.social5,
+       images.social6,
+       images.social7,
       ]
     },
     {
       title: "Education Support",
       description:
         "Scholarship distribution and career guidance session for 100+ underprivileged students",
-      img: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      img: images.edu1,
       icon: GraduationCap,
       color: "secondary.main",
       overlayIcon: Book,
       gallery: [
-        "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+        images.edu1,
+        images.edu2,
+        images.edu3,
+        images.edu4,
+        images.edu5,
+        images.edu6,
       ]
     },
   ];

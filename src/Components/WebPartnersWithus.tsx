@@ -2,13 +2,16 @@ import React from "react";
 import { Box, Card, CardContent, Typography } from "@mui/material";
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 const partners = [
-  "Partner A",
-  "Partner B",
-  "Partner C",
-  "Partner D",
-  "Partner E",
-  "Partner F",
+  "HCA Trust",
+  "Ezhaiku Iranguvom Trust",
+  "Kanmalai Trust",
+  "Atmar Mind City",
 ];
+
+
+
+ 
+
 
 export const WebPartnersWithus = () => {
   return (

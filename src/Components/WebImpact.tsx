@@ -5,7 +5,7 @@ export const WebImpact = () => {
   const impactData = [
     { label: "Youth Engaged", target: 5000, suffix: "+" },
     { label: "Tournaments Conducted", target: 30, suffix: "+" },
-    { label: "Medical Beneficiaries", target: 300, suffix: "+" },
+    { label: "Medical Beneficiaries", target: 1000, suffix: "+" },
     { label: "Years of Service", target: 5, suffix: "+" },
   ];
 

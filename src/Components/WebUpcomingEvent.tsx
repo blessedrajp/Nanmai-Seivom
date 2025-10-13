@@ -25,12 +25,12 @@ export const WebUpcomingEvent = () => {
       color: "var(--primary)",
       buttonText: "Join Partnership",
       buttonTestId: "button-join-partnership",
-      href: "#services",
+      href: "#contact",
     },
     {
       title: "Volunteer Opportunities",
       description:
-        "Community participation events where everyone can contribute",
+        "Community participation events where anyone can contribute",
       icon: UserPlus,
       color: "var(--primary)",
       buttonText: "Volunteer Now",

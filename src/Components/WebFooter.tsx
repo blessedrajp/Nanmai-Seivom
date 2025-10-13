@@ -73,12 +73,12 @@ export const WebFooter = () => {
               sx={{ height: 80 }}
             />
           </Box>
-          <Box
+          {/* <Box
               component="img"
               src={images.qr}
               alt="Nanmai Seivom QR"
               sx={{ height: 80,width:'max-content',margin:'10px 0px 10px 20px',}}
-            />
+            /> */}
           <Typography variant="body2" color="grey.400">
             Empowering communities through truth, love, and dedicated service
             since 2014.

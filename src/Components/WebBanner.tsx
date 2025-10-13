@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Box, Typography, Button, IconButton, Container } from "@mui/material";
 import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 
-// import medical from "@/assets/medical.jpg";
+
+import { images } from "../assets/Images/Images";
 
 interface Slide {
   id: number;
@@ -22,7 +23,7 @@ const slides: Slide[] = [
     subtitle:
       "Empowering communities through education, sports, healthcare, and social change",
     image:
-      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      images.banner1,
     alt: "Community building together",
     buttonText: "Learn More",
     buttonLink: "#about",
@@ -34,7 +35,7 @@ const slides: Slide[] = [
     subtitle:
       "Beating Drugs with Sports - 14 tournaments conducted, 1,200+ youth participated",
     image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      images.banner5,
     alt: "Youth sports tournament",
     buttonText: "Our Programs",
     buttonLink: "#services",
@@ -45,7 +46,7 @@ const slides: Slide[] = [
     title: "Community Development & Tribal Rights",
     subtitle: "Uplifting marginalized communities in Kodaikanal downhills",
     image:
-      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      images.banner3,
     alt: "Community development program",
     buttonText: "Get Involved",
     buttonLink: "#services",
@@ -56,10 +57,21 @@ const slides: Slide[] = [
     title: "Medical Services & Blood Donation",
     subtitle: "300+ villagers benefited from our medical camps",
     image:
-      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      images.banner4,
     alt: "Medical camp healthcare services",
     buttonText: "Support Us",
     buttonLink: "#contact",
+    buttonVariant: "secondary",
+  },
+    {
+    id: 5,
+    title: "Education & Career Growth",
+    subtitle: "Empowering the next generation through quality education and career guidance",
+    image:
+      images.banner4,
+    alt: "Education & Career Growth",
+    buttonText: "Learn more",
+    buttonLink: "#services",
     buttonVariant: "secondary",
   },
 ];

@@ -113,7 +113,7 @@ export const WebHeader = () => {
                 {item.label}
               </Button>
             ))}
-            <Button
+            {/* <Button
               variant="contained"
               onClick={() => handleNavClick("#contact")}
               sx={{
@@ -128,7 +128,7 @@ export const WebHeader = () => {
               }}
             >
               Login
-            </Button>
+            </Button> */}
           </Box>
         )}
 
@@ -190,7 +190,7 @@ export const WebHeader = () => {
               </ListItemButton>
             </ListItem>
           ))}
-          <ListItem sx={{ mt: 1 }}>
+          {/* <ListItem sx={{ mt: 1 }}>
             <Button
               fullWidth
               variant="contained"
@@ -207,7 +207,7 @@ export const WebHeader = () => {
             >
               Login
             </Button>
-          </ListItem>
+          </ListItem> */}
         </List>
       </Drawer>
     </AppBar>
