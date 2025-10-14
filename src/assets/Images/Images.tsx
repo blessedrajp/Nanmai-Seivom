@@ -2,6 +2,7 @@ import logo from "./logo.png"
 import qr from "./qrcode.jpg"
 import appLogo from './logonanmai.jpg'
 import scanner from './scaner.png'
+import aboutImg from './about.jpg'
 
 import banner1 from './banners/Community Developement.png'
 import banner2 from './banners/Education.png'
@@ -68,6 +69,7 @@ export const images = {
   qr:qr,
   appLogo:appLogo,
   scanner:scanner,
+  aboutImg:aboutImg,
 
   banner1:banner1,
   banner2:banner2,
