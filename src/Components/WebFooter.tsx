@@ -81,7 +81,7 @@ export const WebFooter = () => {
             /> */}
           <Typography variant="body2" color="grey.400">
             Empowering communities through truth, love, and dedicated service
-            since 2014.
+            since 2020.
           </Typography>
         </Box>
 
