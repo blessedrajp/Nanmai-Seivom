@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { Box, Card, CardContent, Typography, Button } from "@mui/material";
 import BoltIcon from "@mui/icons-material/FlashOn"; // Vision icon
 import FlagIcon from "@mui/icons-material/Flag"; // Mission icon
+import { images } from "../assets/Images/Images";
 
 export const WebAbout = () => {
   const aboutRef = useRef<HTMLDivElement | null>(null);
@@ -63,7 +64,7 @@ Taking it forward, the movement has now begun to expand its social welfare proje
           }}
         >
           Building communities through truth, love, and dedicated service since
-          2014
+          2020
         </Typography>
       </Box>
 
@@ -79,7 +80,7 @@ Taking it forward, the movement has now begun to expand its social welfare proje
         <Box flex={1}>
           <Box
             component="img"
-            src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+            src={images.aboutImg}
             alt="Community education program"
             sx={{ width: "100%", borderRadius: 3, boxShadow: 3 }}
           />

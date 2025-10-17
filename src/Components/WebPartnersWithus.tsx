@@ -5,7 +5,7 @@ const partners = [
   "HCA Trust",
   "Ezhaiku Iranguvom Trust",
   "Kanmalai Trust",
-  "Atmar Mind City",
+  "Athma Mind City",
 ];
 
 

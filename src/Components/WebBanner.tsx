@@ -68,7 +68,7 @@ const slides: Slide[] = [
     title: "Education & Career Growth",
     subtitle: "Empowering the next generation through quality education and career guidance",
     image:
-      images.banner4,
+      images.banner2,
     alt: "Education & Career Growth",
     buttonText: "Learn more",
     buttonLink: "#services",
