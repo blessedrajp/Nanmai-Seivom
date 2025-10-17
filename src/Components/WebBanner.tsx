@@ -21,7 +21,7 @@ const slides: Slide[] = [
     id: 1,
     title: "Building a Better Society Rooted in Truth & Love!",
     subtitle:
-      "Empowering communities through education, sports, healthcare, and social change",
+      "Building a better society rooted in truth and love — empowering communities through education, sports, healthcare, and social change",
     image:
       images.banner1,
     alt: "Community building together",
@@ -33,7 +33,7 @@ const slides: Slide[] = [
     id: 2,
     title: "Sports for Health & Fitness",
     subtitle:
-      "Beating Drugs with Sports - 14 tournaments conducted, 1,200+ youth participated",
+      "We believe in defeating drugs through sports — empowering youthwith tournaments, awareness programs, and active engagement.",
     image:
       images.banner5,
     alt: "Youth sports tournament",
@@ -44,9 +44,9 @@ const slides: Slide[] = [
   {
     id: 3,
     title: "Community Development & Tribal Rights",
-    subtitle: "Uplifting marginalized communities in Kodaikanal downhills",
+    subtitle: "Uplifting marginalized communities in the Kodaikanal downhills,especially the Pulaiyar and Paliyar communities.",
     image:
-      images.banner3,
+      images.banner6,
     alt: "Community development program",
     buttonText: "Get Involved",
     buttonLink: "#services",
@@ -55,7 +55,7 @@ const slides: Slide[] = [
   {
     id: 4,
     title: "Medical Services & Blood Donation",
-    subtitle: "300+ villagers benefited from our medical camps",
+    subtitle: "Ensuring accessible healthcare for all communities and helping bridgethe gap between blood donors and those in need.",
     image:
       images.banner4,
     alt: "Medical camp healthcare services",
@@ -66,14 +66,27 @@ const slides: Slide[] = [
     {
     id: 5,
     title: "Education & Career Growth",
-    subtitle: "Empowering the next generation through quality education and career guidance",
+    subtitle: "Empowering the next generation through quality education andmeaningful career guidance.",
     image:
-      images.banner2,
+      images.banner3,
     alt: "Education & Career Growth",
     buttonText: "Learn more",
     buttonLink: "#services",
     buttonVariant: "secondary",
   },
+
+  {
+    id: 6,
+    title: "Social awareness andfostering environmental stewardship",
+    subtitle: "Promoting social awareness and fostering environmental stewardship for a more responsible and sustainable future",
+    image:
+      images.banner2,
+    alt: "social awareness",
+    buttonText: "Learn more",
+    buttonLink: "#services",
+    buttonVariant: "secondary",
+  },
+
 ];
 
 export const WebBanner = () => {

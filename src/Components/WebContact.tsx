@@ -16,6 +16,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import { useForm, Controller } from "react-hook-form";
 import { z } from "zod";
@@ -27,8 +28,8 @@ const contactSchema = z.object({
   name: z.string().min(1, "Name is required"),
   phone: z
     .string()
-    .min(8, "Phone number must be at least 8 digits")
-    .max(20, "Phone number must not exceed 20 digits"),
+    .min(10, "Phone number must be at least 10 digits"),
+    // .max(20, "Phone number must not exceed 10 digits"),
   email: z.string().min(1, "Email is required").email("Invalid email"),
   message: z.string().min(1, "Message is required"),
 });
@@ -66,6 +67,25 @@ export const WebContact = () => {
   const [secondarySolid, setSecondarySolid] = useState("#f97316");
   const [primary05, setPrimary05] = useState("rgba(6,182,212,0.05)");
   const [primary10, setPrimary10] = useState("rgba(6,182,212,0.10)");
+
+  const socialLinks = [
+  {
+    icon: InstagramIcon,
+    url: "https://www.instagram.com/yourpage",
+  },
+  {
+    icon: FacebookIcon,
+    url: "https://www.facebook.com/profile.php?id=61573974056598",
+  },
+  {
+    icon: YouTubeIcon,
+    url: "https://www.youtube.com/@nanmaiseivom368",
+  },
+  {
+    icon: WhatsAppIcon,
+    url: "https://wa.me/8695101448",
+  },
+];
 
   useEffect(() => {
     const s = getComputedStyle(document.documentElement);
@@ -294,28 +314,27 @@ export const WebContact = () => {
                   <Typography sx={{ fontWeight: 600, mb: 1.5 }}>
                     Follow Us
                   </Typography>
-                  <Box display="flex" gap={1.5}>
-                    {[InstagramIcon, FacebookIcon, YouTubeIcon].map(
-                      (Icon, idx) => (
-                        <IconButton
-                          key={idx}
-                          sx={{
-                            width: 40,
-                            height: 40,
-                            borderRadius: 2,
-                            background: "#f3f4f6",
-                            color: primarySolid,
-                            "&:hover": {
-                              background: primarySolid,
-                              color: "#fff",
-                            },
-                          }}
-                        >
-                          <Icon fontSize="small" />
-                        </IconButton>
-                      )
-                    )}
-                  </Box>
+                   <Box display="flex" gap={1.5}>
+      {socialLinks.map(({ icon: Icon, url }, idx) => (
+        <IconButton
+          key={idx}
+          onClick={() => window.open(url, "_blank")}
+          sx={{
+            width: 40,
+            height: 40,
+            borderRadius: 2,
+            background: "#f3f4f6",
+            color: primarySolid,
+            "&:hover": {
+              background: primarySolid,
+              color: "#fff",
+            },
+          }}
+        >
+          <Icon fontSize="small" />
+        </IconButton>
+      ))}
+    </Box>
                 </Box>
               </CardContent>
             </Card>

@@ -3,6 +3,7 @@ import { Box, Typography, Button, IconButton, Divider } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { images } from "../assets/Images/Images";
 
 const LINKS = [
@@ -20,6 +21,25 @@ export const WebFooter = () => {
     const el = document.querySelector(id);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
+
+    const socialLinks = [
+  {
+    icon: InstagramIcon,
+    url: "https://www.instagram.com/yourpage",
+  },
+  {
+    icon: FacebookIcon,
+    url: "https://www.facebook.com/profile.php?id=61573974056598",
+  },
+  {
+    icon: YouTubeIcon,
+    url: "https://www.youtube.com/@nanmaiseivom368",
+  },
+  {
+    icon: WhatsAppIcon,
+    url: "https://wa.me/8695101448",
+  },
+];
 
   // Track active section
   useEffect(() => {
@@ -137,9 +157,10 @@ export const WebFooter = () => {
             Connect With Us
           </Typography>
           <Box sx={{ display: "flex", gap: 2, mb: 3, mt: 1.5 }}>
-            {[InstagramIcon, FacebookIcon, YouTubeIcon].map((Icon, i) => (
+             {socialLinks.map(({ icon: Icon, url }, idx) => (
               <IconButton
-                key={i}
+                key={idx}
+                onClick={() => window.open(url, "_blank")}
                 sx={{
                   width: 40,
                   height: 40,

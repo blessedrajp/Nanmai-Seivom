@@ -4,47 +4,38 @@ import TrophyIcon from "@mui/icons-material/EmojiEvents";
 import GraduationCapIcon from "@mui/icons-material/School";
 import StethoscopeIcon from "@mui/icons-material/LocalHospital";
 import UsersIcon from "@mui/icons-material/People";
-import MegaphoneIcon from "@mui/icons-material/Campaign"; // Example icon
+import MegaphoneIcon from "@mui/icons-material/Campaign";
 
 const services = [
   {
     icon: TrophyIcon,
     title: "Sports for Health & Fitness",
     description:
-      "We believe in beating drugs with sports. Through tournaments, awareness programs, and youth engagement.",
-    stats: "30+ tournaments across Trichy, Ooty, Madurai, Kodaikanal and more",
-    partners: "HCA Trust,DMK Sports Wing, CCJ Ministries",
+      "Promoting a drug-free and active lifestyle through tournaments, rural games, and sports coaching that build teamwork, discipline, and confidence among youth.",
   },
   {
     icon: GraduationCapIcon,
     title: "Education & Career Growth",
     description:
-      "Empowering the next generation through quality education and career guidance.",
-    features:
-      "Tuition centers, scholarships, career counseling by Dr. Sujith from Rotary Club",
+      "Empowering students through tuition centers, scholarships, and career guidance — helping youth access education, explore careers, and build a better future.",
   },
   {
     icon: StethoscopeIcon,
     title: "Medical Services & Blood Donation",
-    description: "Ensuring accessible healthcare for all communities.",
-    achievements:
-      "Major medical camp at Madurai Ambalathadi (300+ beneficiaries)",
-    partners: "Christian Fellowship Hospital, Oddanchatram",
+    description:
+      "Ensuring accessible healthcare for all through medical camps, awareness drives, blood donation networks, and medical counseling for communities in need.",
   },
   {
     icon: UsersIcon,
     title: "Community Upliftment & Tribal Rights",
     description:
-      "Uplifting marginalized communities through skill development and legal awareness.",
-    features: "Tribal rights awareness by Adv. Albert and Dr. Anbu Chezhiyan",
+      "Supporting marginalized and tribal communities through skill development, legal awareness, and advocacy — protecting their culture, land, and rights.",
   },
   {
     icon: MegaphoneIcon,
     title: "Social Awareness & Environmental Stewardship",
     description:
-      "Driving change through education, environmental action, and social inclusion.",
-    activities:
-      "Tree plantation, moral education, elderly care, social media awareness",
+      "Creating a responsible society through tree planting, pollution awareness, moral education, elderly care, women’s rights, and child safety initiatives.",
   },
 ];
 
@@ -135,37 +126,9 @@ export const WebWhatWeDo = () => {
                   {service.title}
                 </Typography>
 
-                <Typography variant="body2" color="text.secondary" mb={1}>
+                <Typography variant="body2" color="text.secondary">
                   {service.description}
                 </Typography>
-
-                <Box component="div" sx={{ mt: 1 }}>
-                  {service.stats && (
-                    <Typography variant="caption" display="block">
-                      <strong>Stats:</strong> {service.stats}
-                    </Typography>
-                  )}
-                  {service.partners && (
-                    <Typography variant="caption" display="block">
-                      <strong>Partners:</strong> {service.partners}
-                    </Typography>
-                  )}
-                  {service.features && (
-                    <Typography variant="caption" display="block">
-                      <strong>Features:</strong> {service.features}
-                    </Typography>
-                  )}
-                  {service.achievements && (
-                    <Typography variant="caption" display="block">
-                      <strong>Achievements:</strong> {service.achievements}
-                    </Typography>
-                  )}
-                  {service.activities && (
-                    <Typography variant="caption" display="block">
-                      <strong>Activities:</strong> {service.activities}
-                    </Typography>
-                  )}
-                </Box>
               </CardContent>
             </Card>
           );

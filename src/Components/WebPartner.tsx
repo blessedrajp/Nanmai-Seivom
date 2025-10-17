@@ -220,13 +220,11 @@ export const WebPartner = () => {
               fontWeight: "bold",
               "&:hover": { bgcolor: "white", color: "var(--primary)" },
             }}
-            onClick={() =>
-              document.querySelector("#contact")?.scrollIntoView({
-                behavior: "smooth",
-              })
-            }
+              onClick={() =>
+    window.open("https://forms.gle/zZDL5YbFgJm1iZ7t8", "_blank")
+  }
           >
-            Partnership Inquiry
+            Join Membership
           </Button>
         </Box>
 

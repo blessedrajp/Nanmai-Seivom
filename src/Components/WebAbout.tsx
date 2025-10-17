@@ -82,16 +82,19 @@ Taking it forward, the movement has now begun to expand its social welfare proje
             component="img"
             src={images.aboutImg}
             alt="Community education program"
-            sx={{ width: "100%", borderRadius: 3, boxShadow: 3 }}
+            sx={{ width: "100%",height:"500px", borderRadius: 3, boxShadow: 3, objectFit:"cover" }}
           />
         </Box>
 
         <Box flex={1} display="flex" flexDirection="column" gap={3}>
           <Typography>
           Building communities through truth, love, and dedicated service since 2020.
-Founded on the timeless values of compassion, truth, and service, Nanmai Seivom is a movement dedicated to creating a society rooted in goodness.
-We strive to uplift lives by fostering unity, spreading kindness, and empowering individuals to be agents of positive change.
-Our journey is guided by the belief that even the smallest acts of service can create lasting impact for generations to come
+Founded on the timeless values of compassion, truth, and service, Nanmai
+Seivom is a movement devoted to creating a society rooted in goodness. We
+work to uplift lives by fostering unity, spreading kindness, and empowering
+individuals to become agents of positive change. Guided by the belief that even
+the smallest act of service can spark lasting transformation, our journey
+continues with hope, purpose, and love for all.
           </Typography>
           
 

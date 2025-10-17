@@ -4,11 +4,12 @@ import appLogo from './bloodApp.png'
 import scanner from './scaner.png'
 import aboutImg from './about.jpg'
 
-import banner1 from './banners/Community Developement.png'
+import banner1 from './banners/Build Better Society.png'
 import banner2 from './banners/Education.png'
 import banner3 from './banners/Environment.png'
 import banner4 from './banners/Medical & Blood Donation.png'
 import banner5 from './banners/Sports Wing.png'
+import banner6 from "./banners/Community.png"
 
 import sports1 from './sports/AK tournamant 2.jpg'
 import sports2 from './sports/Aware tournamant 2.jpg'
@@ -76,6 +77,7 @@ export const images = {
   banner3:banner3,
   banner4:banner4,
   banner5:banner5,
+  banner6:banner6,
 
   sports1:sports1,
   sports2:sports2,

@@ -57,7 +57,8 @@ export const WebEvent = () => {
     {
       title: "Sports for Health & Fitness",
       description:
-        "District-level championship with 200+ youth participants, promoting sports and teamwork as a powerful alternative to drugs and negative influences. Encouraging discipline, unity, and healthy competition to inspire the younger generation.",
+      "Promoting a drug-free and active lifestyle through tournaments, rural games, and sports coaching that build teamwork, discipline, and confidence among youth.",
+
       img: images.sports1,
       icon: Trophy,
       color: "var(--primary)",
@@ -78,7 +79,7 @@ export const WebEvent = () => {
     {
       title: "Drug Awareness Campaign",
       description:
-        "Community education program in Kodaikanal tribal areas reaching 300+ families",
+              "Promoting a drug-free and active lifestyle through tournaments, rural games, and sports coaching that build teamwork, discipline, and confidence among youth.",
       img: images.drug1,
       icon: Megaphone,
       color: "secondary.main",
@@ -94,7 +95,7 @@ export const WebEvent = () => {
     {
       title: "Medical Services & Blood Donation",
       description:
-        "Inter-district sports meet in Madurai bringing together 400+ young athletes",
+        "Ensuring accessible healthcare for all through medical camps, awareness drives, blood donation networks, and medical counseling for communities in need.",
       img: images.blood1,
       icon: Users,
       color: "var(--primary)",
@@ -113,7 +114,7 @@ export const WebEvent = () => {
     {
       title: "Community Upliftment & Tribal Rights",
       description:
-        "Medical camp and health education at Ooty reaching 150+ tribal community members",
+        "Supporting marginalized and tribal communities through skill development, legal awareness, and advocacy — protecting their culture, land, and rights.",
       img: images.communityup1,
       icon: Heart,
       color: "secondary.main",
@@ -132,7 +133,7 @@ export const WebEvent = () => {
     {
       title: "Social Awareness & Environmental Stewardship",
       description:
-        "Skill development and livelihood training program for marginalized communities",
+       "Creating a responsible society through tree planting, pollution awareness, moral education, elderly care, women’s rights, and child safety initiatives.",
       img: images.social1,
       icon: Leaf,
       color: "var(--primary)",
@@ -150,7 +151,7 @@ export const WebEvent = () => {
     {
       title: "Education Support",
       description:
-        "Scholarship distribution and career guidance session for 100+ underprivileged students",
+      "Empowering students through tuition centers, scholarships, and career guidance — helping youth access education, explore careers, and build a better future.",
       img: images.edu1,
       icon: GraduationCap,
       color: "secondary.main",
@@ -280,7 +281,7 @@ export const WebEvent = () => {
             bgcolor: "background.paper",
             borderRadius: 2,
             boxShadow: 24,
-            maxWidth: 900,
+            maxWidth: 700,
             width: "100%",
             maxHeight: "90vh",
             overflow: "auto",
