@@ -96,7 +96,7 @@ export const WebEvent = () => {
       title: "Medical Services & Blood Donation",
       description:
         "Ensuring accessible healthcare for all through medical camps, awareness drives, blood donation networks, and medical counseling for communities in need.",
-      img: images.blood1,
+      img: images.blood4,
       icon: Users,
       color: "var(--primary)",
       overlayIcon: Award,
@@ -152,7 +152,7 @@ export const WebEvent = () => {
       title: "Education Support",
       description:
       "Empowering students through tuition centers, scholarships, and career guidance — helping youth access education, explore careers, and build a better future.",
-      img: images.edu1,
+      img: images.edu2,
       icon: GraduationCap,
       color: "secondary.main",
       overlayIcon: Book,

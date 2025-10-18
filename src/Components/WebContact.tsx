@@ -1,5 +1,6 @@
 // WebContact.tsx
 import React, { useEffect, useState } from "react";
+import emailjs from "@emailjs/browser";
 import {
   Box,
   Card,
@@ -111,12 +112,36 @@ export const WebContact = () => {
     defaultValues: { name: "", phone: "", email: "", message: "" },
   });
 
-  const onSubmit = async (data: ContactForm) => {
-    console.log("submit", data);
-    await new Promise((res) => setTimeout(res, 600));
+ const onSubmit = async (data: ContactForm) => {
+    // console.log("submit", data);
+
+    // Replace these with your own IDs from EmailJS
+    const SERVICE_ID = "service_ya6nleg";
+    const TEMPLATE_ID = "template_48ophee";
+    const PUBLIC_KEY = "x3vbT3mWGn7_kATb6";
+
+    try {
+      const result = await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        {
+          name: data.name,
+          email: data.email,
+          message: data.message,
+        },
+        PUBLIC_KEY
+      );
+
+      console.log("✅ Email sent successfully:", result.text);
+      alert("Message sent successfully!");
+    } catch (error) {
+      console.error("❌ Email failed:", error);
+      alert("Failed to send email. Please try again.");
+    }
+
+    // reset your form after sending
     reset();
   };
-
   return (
     <Box
       component="section"

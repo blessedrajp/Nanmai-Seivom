@@ -1,15 +1,15 @@
 import logo from "./logo.png"
 import qr from "./qrcode.jpg"
-import appLogo from './bloodApp.png'
+import appLogo from './bloodApp.webp'
 import scanner from './scaner.png'
-import aboutImg from './about.jpg'
+import aboutImg from './about.webp'
 
-import banner1 from './banners/Build Better Society.png'
-import banner2 from './banners/Education.png'
-import banner3 from './banners/Environment.png'
-import banner4 from './banners/Medical & Blood Donation.png'
-import banner5 from './banners/Sports Wing.png'
-import banner6 from "./banners/Community.png"
+import banner1 from './banners/Build Better Society.webp'
+import banner2 from './banners/Education.webp'
+import banner3 from './banners/Environment.webp'
+import banner4 from './banners/Medical & Blood Donation.webp'
+import banner5 from './banners/Sports Wing.webp'
+import banner6 from "./banners/Community.webp"
 
 import sports1 from './sports/AK tournamant 2.jpg'
 import sports2 from './sports/Aware tournamant 2.jpg'
@@ -36,14 +36,14 @@ import communityup5 from './communityuplift/Village aware 7.jpg'
 import communityup6 from './communityuplift/Village aware 4.jpg'
 import communityup7 from './communityuplift/Village aware 3.jpg'
 
-import blood1 from  './blooddo/Award receve.jpg'
-import blood2 from  './blooddo/Blood donation 1.jpg'
-import blood3 from  './blooddo/Cf BC 1.jpg'
-import blood4 from  './blooddo/Dblood.jpg'
+import blood1 from  './blooddo/Award receve.webp'
+import blood2 from  './blooddo/Blood donation 1.webp'
+import blood3 from  './blooddo/Cf BC 1.webp'
+import blood4 from  './blooddo/Dblood.webp'
 import blood5 from  './blooddo/Medical  camp 1.jpg'
 import blood6 from  './blooddo/Medical Checkup 2.jpg'
-import blood7 from  './blooddo/Medical camp.jpg'
-import blood8 from  './blooddo/medical camp .jpg'
+import blood7 from  './blooddo/Medical camp.webp'
+import blood8 from  './blooddo/medical camp .webp'
 
 import edu1 from './education/Mullai vidiyal 5.jpg'
 import edu2 from './education/Student aware.jpg'
