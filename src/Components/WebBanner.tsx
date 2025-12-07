@@ -33,7 +33,7 @@ const slides: Slide[] = [
     id: 2,
     title: "Sports for Health & Fitness",
     subtitle:
-      "We believe in defeating drugs through sports — empowering youthwith tournaments, awareness programs, and active engagement.",
+      "We believe in defeating drugs through sports — empowering youth with tournaments,awareness programs, and active engagement.",
     image:
       images.banner5,
     alt: "Youth sports tournament",
@@ -66,7 +66,7 @@ const slides: Slide[] = [
     {
     id: 5,
     title: "Education & Career Growth",
-    subtitle: "Empowering the next generation through quality education andmeaningful career guidance.",
+    subtitle: "Empowering the next generation through quality education and meaningful career guidance.",
     image:
       images.banner3,
     alt: "Education & Career Growth",
@@ -77,7 +77,7 @@ const slides: Slide[] = [
 
   {
     id: 6,
-    title: "Social awareness andfostering environmental stewardship",
+    title: "Social awareness and fostering environmental stewardship",
     subtitle: "Promoting social awareness and fostering environmental stewardship for a more responsible and sustainable future",
     image:
       images.banner2,
